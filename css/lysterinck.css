@@ -21,9 +21,8 @@
 }
 
 :root {
-
-  --primary: #f9f3b4;
-  --secondary: #252C7B;
+  --lysterinck_yellow: #f9f3b4;
+  --lysterinck_blue: #252C7B;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -58,9 +57,9 @@ body {
   font-size: 8px;
   font-weight: 300;
   line-height: 2;
-  color: #252C7B;
+  color: var(--lysterinck_blue);
   text-align: left;
-  background-color: #f9f3b4;
+  background-color: var(--lysterinck_yellow);
 }
 
 .floating-s{
@@ -166,14 +165,14 @@ sup {
 }
 
 a {
-  color: #252C7B;
+  color: var(--lysterinck_blue);
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #252C7B;
+  color: var(--lysterinck_blue);
   text-decoration: none;
 }
 
