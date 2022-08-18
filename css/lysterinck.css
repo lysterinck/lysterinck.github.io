@@ -52,10 +52,6 @@ html {
   width: device-width;
 }
 
-/* article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-} */
-
 body {
   margin: 0 auto;
   font-family: 'NexaBold';
@@ -66,7 +62,8 @@ body {
   text-align: left;
   background-color: #f9f3b4;
 }
-.test{
+
+.floating-s{
   margin-top: calc((100vh - 30rem) * 0.5);
   text-overflow: inherit;
   padding-left: 15px;
